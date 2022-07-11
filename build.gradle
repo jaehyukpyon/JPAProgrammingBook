@@ -22,7 +22,7 @@ dependencies {
 	testAnnotationProcessor 'org.projectlombok:lombok:1.18.24'
 
 	// https://mvnrepository.com/artifact/org.hibernate/hibernate-entitymanager
-	implementation 'org.hibernate:hibernate-entitymanager:5.6.10.Final'
+	implementation 'org.hibernate:hibernate-entitymanager:5.4.10.Final'
 
 	// https://mvnrepository.com/artifact/com.h2database/h2
 	implementation 'com.h2database:h2:1.4.200'

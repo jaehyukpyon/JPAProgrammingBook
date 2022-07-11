@@ -1,9 +1,12 @@
 package com.jpabook.start.ch5;
 
+import lombok.NoArgsConstructor;
+
 import javax.persistence.*;
 
 @Entity
 @Table
+@NoArgsConstructor
 public class Member5 {
 
     @Id
@@ -14,7 +17,12 @@ public class Member5 {
 
     @ManyToOne
     @JoinColumn(name = "TEAM_ID")
-    private Team team;
+    private Team5 team;
+
+    public Member5(String id, String username) {
+        this.id = id;
+        this.username = username;
+    }
 
     public String getId() {
         return id;
@@ -32,11 +40,11 @@ public class Member5 {
         this.username = username;
     }
 
-    public Team getTeam() {
+    public Team5 getTeam() {
         return team;
     }
 
-    public void setTeam(Team team) {
-        this.team = team;
+    public void setTeam(Team5 team5) {
+        this.team = team5;
     }
 }

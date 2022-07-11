@@ -5,6 +5,8 @@
         <class>com.jpabook.start.Member</class>
         <class>com.jpabook.start.ch4.Board4</class>
         <class>com.jpabook.start.ch4.Member4</class>
+        <class>com.jpabook.start.ch5.Member5</class>
+        <class>com.jpabook.start.ch5.Team5</class>
 
         <properties>
 
@@ -21,7 +23,7 @@
             <property name="hibernate.use_sql_comments" value="false"/>
             <property name="hibernate.id.new_generator_mappings" value="true"/>
 
-            <property name="hibernate.hbm2ddl.auto" value="create"/>
+            <property name="hibernate.hbm2ddl.auto" value="update"/>
         </properties>
     </persistence-unit>
 
