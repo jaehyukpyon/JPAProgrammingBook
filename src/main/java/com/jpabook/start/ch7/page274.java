@@ -40,6 +40,21 @@ public class page274 {
     where
         parent7x0_.PARENT_ID=2
         * */
+
+
+        // 만약, Parent7에서 @OneToOne(fetch = FetchType.LAZY)로 설정 돼 있다면,
+        /*Hibernate:
+        select
+        parent7x0_.PARENT_ID as PARENT_I1_9_0_,
+                parent7x0_.name as name2_9_0_,
+        parent7x0_1_.CHILD_ID as CHILD_ID1_10_0_
+                from
+        Parent7 parent7x0_
+        left outer join
+        PARENT_CHILD parent7x0_1_
+        on parent7x0_.PARENT_ID=parent7x0_1_.PARENT_ID
+        where
+        parent7x0_.PARENT_ID=?*/
     }
 
     private static void logic(EntityManager em) {
