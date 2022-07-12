@@ -12,6 +12,8 @@
         <class>com.jpabook.start.ch6_1.MemberProduct6_1</class>
         <class>com.jpabook.start.ch6_1.Member6_1</class>
         <class>com.jpabook.start.ch6_1.Product6_1</class>
+        <class>com.jpabook.start.ch7.Parent7</class>
+        <class>com.jpabook.start.ch7.Child7</class>
 
         <properties>
 
