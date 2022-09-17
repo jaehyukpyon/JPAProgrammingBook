@@ -2,8 +2,8 @@ package com.jpabook.start.ch4;
 
 import javax.persistence.*;
 
-@Entity
-@Table
+/*@Entity
+@Table*/
 public class Board4 {
 
     @Id

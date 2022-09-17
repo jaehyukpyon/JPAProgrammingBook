@@ -2,8 +2,8 @@ package com.jpabook.start.ch6_1;
 
 import javax.persistence.*;
 
-@Entity
-@IdClass(MemberProductId6_1.class)
+/*@Entity
+@IdClass(MemberProductId6_1.class)*/
 public class MemberProduct6_1 {
 
     @Id

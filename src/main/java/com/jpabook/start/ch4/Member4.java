@@ -3,8 +3,8 @@ package com.jpabook.start.ch4;
 
 import javax.persistence.*;
 
-@Entity
-@Table(name = "MEMBER4")
+/*@Entity
+@Table(name = "MEMBER4")*/
 public class Member4 {
 
     @Id

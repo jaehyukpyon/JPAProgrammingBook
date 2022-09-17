@@ -4,9 +4,9 @@ import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 
-@Entity
+/*@Entity
 @Table
-@NoArgsConstructor
+@NoArgsConstructor*/
 public class Member5 {
 
     @Id

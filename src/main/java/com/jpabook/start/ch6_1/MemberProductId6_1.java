@@ -5,7 +5,7 @@ import lombok.NoArgsConstructor;
 import java.io.Serializable;
 import java.util.Objects;
 
-@NoArgsConstructor
+/*@NoArgsConstructor*/
 public class MemberProductId6_1 implements Serializable {
 
     private String member;
