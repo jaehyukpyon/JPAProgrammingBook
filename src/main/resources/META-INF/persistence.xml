@@ -15,14 +15,17 @@
         <class>com.jpabook.start.ch7.Parent7</class>
         <class>com.jpabook.start.ch7.Child7</class>-->
 
-        <class>com.jpabook.start.ch6_pg221.Member</class>
-        <class>com.jpabook.start.ch6_pg221.Product</class>
+        <!--<class>com.jpabook.start.ch6_pg221.Member</class>
+        <class>com.jpabook.start.ch6_pg221.Product</class>-->
 
         <!--<class>com.jpabook.start.ch7_pg274.Parent</class>
         <class>com.jpabook.start.ch7_pg274.Child</class>-->
 
-        <class>com.jpabook.start.ch7_pg276.Parent</class>
-        <class>com.jpabook.start.ch7_pg276.Child</class>
+        <!--<class>com.jpabook.start.ch7_pg276.Parent</class>
+        <class>com.jpabook.start.ch7_pg276.Child</class>-->
+
+        <class>com.jpabook.start.ch8_pg308.Parent</class>
+        <class>com.jpabook.start.ch8_pg308.Child</class>
 
         <properties>
 

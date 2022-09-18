@@ -5,9 +5,9 @@ import lombok.Setter;
 
 import javax.persistence.*;
 
-@Getter
+/*@Getter
 @Setter
-@Entity
+@Entity*/
 public class Child {
 
     @Id
