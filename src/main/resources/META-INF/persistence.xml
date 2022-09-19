@@ -24,8 +24,10 @@
         <!--<class>com.jpabook.start.ch7_pg276.Parent</class>
         <class>com.jpabook.start.ch7_pg276.Child</class>-->
 
-        <class>com.jpabook.start.ch8_pg308.Parent</class>
-        <class>com.jpabook.start.ch8_pg308.Child</class>
+        <!--<class>com.jpabook.start.ch8_pg308.Parent</class>
+        <class>com.jpabook.start.ch8_pg308.Child</class>-->
+
+        <class>com.jpabook.start.ch9_pg326.Member</class>
 
         <properties>
 
@@ -42,7 +44,7 @@
             <property name="hibernate.use_sql_comments" value="false"/>
             <property name="hibernate.id.new_generator_mappings" value="true"/>
 
-            <property name="hibernate.hbm2ddl.auto" value="update"/>
+            <property name="hibernate.hbm2ddl.auto" value="create"/>
         </properties>
     </persistence-unit>
 

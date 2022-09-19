@@ -9,14 +9,14 @@ import java.util.List;
 
 @Getter
 @Setter
-@Entity
+//@Entity
 public class Parent {
 
     @Id
     @GeneratedValue
     private Long id;
 
-    @OneToMany(mappedBy = "parent", cascade = CascadeType.REMOVE)
+    @OneToMany(mappedBy = "parent", cascade = CascadeType.ALL)
     private List<Child> children = new ArrayList<>();
 
 }

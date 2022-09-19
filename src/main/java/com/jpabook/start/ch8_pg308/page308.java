@@ -22,7 +22,8 @@ public class page308 {
             //logic(em);
             //deleteLogic(em);
 
-            deleteCascade(em);
+            persistLogic(em);
+            //deleteCascade(em);
 
             System.out.println("transaction commit!");
             System.out.println("성공했습니다.!");
@@ -36,9 +37,26 @@ public class page308 {
         }
     }
 
+    private static void persistLogic(EntityManager em) {
+        Child child1 = new Child();
+        Child child2 = new Child();
+
+        Parent parent = new Parent();
+        child1.setParent(parent);
+        child2.setParent(parent);
+        parent.getChildren().add(child1);
+        parent.getChildren().add(child2);
+
+        em.persist(parent);
+        System.out.println("child1 & child2 in EntityManager? " + em.contains(child1) + " & " + em.contains(child2));
+    }
+
     private static void deleteCascade(EntityManager em) {
         Parent findParent = em.find(Parent.class, 1L);
+
+        System.out.println("remove 호출 전...");
         em.remove(findParent);
+        System.out.println("remove 호출 후...");
         System.out.println("deleteCascade 종료!!!");
     }
 
